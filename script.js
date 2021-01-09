@@ -12,6 +12,7 @@ instructions.addEventListener("click",()=>{
 
 // ***********************                 game starts                      ***********************
 let start_game = () => {
+    player.score = 0;
     player.start = true;
     instructions.classList.add("hide");
     getlines();
